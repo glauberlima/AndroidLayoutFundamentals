@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/launch_activity_linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LinearLayout activity" />
+
+    <Button
+        android:id="@+id/launch_activity_relative_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RelativeLayout activity" />
+
+    <Button
+        android:id="@+id/launch_activity_relative2_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RelativeLayout activity 2" />
+
+    <Button
+        android:id="@+id/launch_activity_frame_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FrameLayout activity" />
+
+    <Button
+        android:id="@+id/launch_activity_frame2_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FrameLayout2 activity" />
+
+    <Button
+        android:id="@+id/launch_activity_table_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TableLayout activity" />
+
+
+</LinearLayout>

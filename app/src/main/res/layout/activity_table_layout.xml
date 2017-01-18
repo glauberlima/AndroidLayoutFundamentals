@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_table_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:collapseColumns="3"
+    android:shrinkColumns="2"
+    android:stretchColumns="0,1,2">
+
+    <TextView
+        android:background="@android:color/holo_green_light"
+        android:text="Sushi header" />
+
+    <!--<TableRow>-->
+
+    <!--<TextView-->
+    <!--android:layout_column="1"-->
+    <!--android:layout_span="2"-->
+    <!--android:background="@android:color/holo_green_light"-->
+    <!--android:text="Sushi" />-->
+    <!--</TableRow>-->
+
+    <TableRow>
+
+        <TextView
+            android:background="@color/purple"
+            android:text="1" />
+
+        <TextView
+            android:background="@color/blue"
+            android:text="Kappa roll" />
+
+        <TextView
+            android:background="@android:color/holo_blue_bright"
+            android:text="Kappa roll description" />
+
+        <TextView
+            android:background="@color/purple"
+            android:text="$3.95" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:background="@color/blue"
+            android:text="2" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:background="@color/purple"
+            android:text="Caterpillar roll" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_bright"
+            android:text="Caterpillar roll description,Caterpillar roll description" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:background="@color/blue"
+            android:text="$9.95" />
+    </TableRow>
+
+</TableLayout>
