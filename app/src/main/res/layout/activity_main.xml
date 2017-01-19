@@ -47,4 +47,11 @@
         android:text="TableLayout activity" />
 
 
+    <Button
+        android:id="@+id/launch_activity_view_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ViewStub demonstration" />
+
+
 </LinearLayout>

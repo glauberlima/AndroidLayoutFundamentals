@@ -29,7 +29,8 @@
             android:parentActivityName=".MainActivity" />
         >
         <activity android:name=".FrameLayout2Activity" />
-        <activity android:name=".TableLayoutActivity"></activity>
+        <activity android:name=".TableLayoutActivity" />
+        <activity android:name=".ViewStubActivity"></activity>
     </application>
 
 </manifest>

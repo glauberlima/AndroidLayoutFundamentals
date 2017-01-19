@@ -67,5 +67,14 @@ public class MainActivity extends Activity {
             }
         });
 
+        Button launchViewStubButton = (Button) findViewById(R.id.launch_activity_view_stub);
+        launchViewStubButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), ViewStubActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
